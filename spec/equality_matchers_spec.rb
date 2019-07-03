@@ -34,8 +34,8 @@ RSpec.describe 'quality matchers' do
       expect(c).to equal(e)
       expect(c).to be(e)
       
-      expect(c).not_to eqaul(d)
-      expect(c).not_to be(d)
+      expect(c).not_to equal(d)
+      expect(c).not_to be([1,2,3])
     end
 
   end
